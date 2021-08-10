@@ -13,7 +13,7 @@ class Database
             return self::$dbh;
         }
         try {
-            self::$dbh = new PDO('mysql: host=localhost; dbname=test', 'pudding', 'Pudding0803%');
+            self::$dbh = new PDO('mysql: host=localhost; dbname=Fantastic Book', 'pudding', 'Pudding0803%');
             self::$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return self::$dbh;
         } catch(PDOException $e) {
