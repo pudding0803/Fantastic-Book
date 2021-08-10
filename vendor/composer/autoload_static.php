@@ -31,6 +31,10 @@ class ComposerStaticInitd06b44fc21abcf0090caa2f6858c3603
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
         ),
+        'C' => 
+        array (
+            'Config\\' => 7,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -75,6 +79,10 @@ class ComposerStaticInitd06b44fc21abcf0090caa2f6858c3603
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/config',
         ),
         'App\\' => 
         array (

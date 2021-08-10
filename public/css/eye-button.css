@@ -1,0 +1,9 @@
+.hidden-button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.hidden-button:hover {
+    color: #555555;
+}

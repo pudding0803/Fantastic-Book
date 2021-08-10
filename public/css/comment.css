@@ -1,0 +1,35 @@
+.comment-content {
+    color: black;
+}
+
+.reply-content {
+    color: white;
+}
+
+.reply-light {
+    background-color: #82C0CC;
+}
+
+.reply-dark {
+    background-color: #489FB5;
+}
+
+.user-link {
+    text-decoration: none;
+}
+
+div.comment-content .user-link {
+    color: black;
+}
+
+div.comment-content .user-link:hover {
+    color: #82C0CC;
+}
+
+div.reply-content .user-link {
+    color: white;
+}
+
+div.reply-content .user-link:hover {
+    color: #16697A;
+}

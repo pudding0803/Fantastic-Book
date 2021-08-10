@@ -1,0 +1,13 @@
+#navbar {
+    height: 80px;
+    background-color: #489FB5;
+}
+
+.self-nav-link {
+    color: white!important;
+}
+
+.self-nav-link:hover, .self-nav-link.in-page {
+    color: white!important;
+    text-shadow: 0 0 10px #FFA62B, 0 0 20px #FFA62B, 0 0 30px #FFA62B;
+}

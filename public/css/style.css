@@ -1,0 +1,29 @@
+/* https://coolors.co/16697a-489fb5-82c0cc-ede7e3-ffa62b */
+
+@font-face {
+    font-family: 'regular';
+    src: local("Segoe UI Emoji"),
+         local("Apple Color Emoji"),
+         local("Noto Color Emoji"),
+         local("Segoe UI Symbol"),
+         url('../assets/font/GenSenRounded-R.ttc');
+}
+
+* {
+    font-family: regular;
+}
+
+.self-border {
+    border-color: #16697A!important;
+}
+
+.self-button {
+    color: white;
+    background-color: #489FB5;
+    border-color: #489FB5;
+}
+
+.self-button:hover {
+    color: white;
+    background-color: #16697A;
+}

@@ -1,0 +1,14 @@
+.emoji-btn {
+    border-color: #16697A;
+}
+
+.emoji-btn:hover {
+    color: white;
+    background-color: #489FB5;
+    border-color: #16697A;
+}
+
+.emoji-btn-chosen {
+    background-color: #489FB5;
+    color: white;
+}

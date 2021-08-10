@@ -3,7 +3,7 @@ namespace App;
 
 class View
 {
-    public static function render(string $template, array $data): string
+    public static function render(string $template, ?array $data = []): string
     {
         ob_start();
         include '../views/' . $template;
